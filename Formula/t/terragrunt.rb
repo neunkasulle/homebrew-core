@@ -4,6 +4,7 @@ class Terragrunt < Formula
   url "https://github.com/gruntwork-io/terragrunt/archive/refs/tags/v1.0.8.tar.gz"
   sha256 "a5cdd3703944646d5d3cf2ee0b168e1b5b4873fa40fc0e558f59e9286455746d"
   head "https://github.com/gruntwork-io/terragrunt.git", branch: "main"
+  version "1.0.8"
   license "MIT"
 
   # Upstream creates releases that use a stable tag (e.g., `v1.2.3`) but are
